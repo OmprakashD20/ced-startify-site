@@ -18,6 +18,7 @@ import GurusPitchForm from "@/components/event-forms/guru-pitch";
 import StartupDistrictForm from "@/components/event-forms/startup-district";
 import GoldenStarECellAwardsForm from "@/components/event-forms/golden-ecell";
 import FounderFindForm from "@/components/event-forms/founder-find";
+import IpToIpoForm from "./event-forms/ip-to-ipo";
 
 interface AboutCardProps {
   id: string;
@@ -53,6 +54,7 @@ export default function AboutCard({
     "founder-find": FounderFindForm,
     "startup-district": StartupDistrictForm,
     "e-cell-awards": GoldenStarECellAwardsForm,
+    "ip-to-ipo": IpToIpoForm,
   };
 
   const FormComponent = formComponents[id];

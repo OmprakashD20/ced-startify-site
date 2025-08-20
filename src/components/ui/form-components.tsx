@@ -181,12 +181,14 @@ export const TextInput = ({
   placeholder,
   description,
   type = "text",
+  disabled = false,
 }: {
   name: string;
   label: string;
   placeholder: string;
   description?: string;
   type?: string;
+  disabled?: boolean;
 }) => (
   <FormField
     name={name}
@@ -198,6 +200,7 @@ export const TextInput = ({
             placeholder={placeholder}
             type={type}
             className="placeholder:max-sm:text-sm"
+            disabled={disabled}
             {...field}
           />
         </FormControl>

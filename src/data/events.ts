@@ -1,5 +1,14 @@
 export const events = [
   {
+    id: "ip-to-ipo",
+    title: "IP to IPO",
+    description:
+      "Got a project or patent? Turn it into a startup!! Pitch now and walk out as a Founder.",
+    prizeAmount: "TBD",
+    regFee: "625",
+    imageSrc: "/images/ip-to-ipo.jpg",
+  },
+  {
     id: "startup-cafe",
     title: "Startup Cafe Prototyping Hackathon",
     description:
